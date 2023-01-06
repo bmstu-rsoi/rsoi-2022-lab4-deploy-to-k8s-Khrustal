@@ -35,7 +35,7 @@ jobs:
       - name: Create .kube folder
         run: mkdir $HOME/.kube
 
-      - name: Send YC config to K8S
+      - name: Send YC config to k8s
         run: cp ./k8s/config $HOME/.kube/config
 
       - name: Delete old Service pods
