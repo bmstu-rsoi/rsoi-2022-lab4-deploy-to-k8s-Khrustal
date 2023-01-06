@@ -3,7 +3,7 @@ info:
   title: Library System
   version: "1.0"
 servers:
-  - url: 51.250.15.148
+  - url: http://localhost:8080
 paths:
   /api/v1/libraries:
     get:
